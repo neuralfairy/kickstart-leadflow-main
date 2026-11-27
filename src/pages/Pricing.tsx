@@ -202,7 +202,7 @@ const Pricing = () => {
                     className="w-full" 
                     variant={plan.popular ? "cta" : "outline-primary"}
                     size="lg"
-                    onClick={() => window.open(plan.ctaLink, '_blank')}
+                    onClick={() => window.location.assign(plan.ctaLink)}
                   >
                     {plan.cta}
                     <ArrowRight className="ml-2 h-4 w-4" />
@@ -283,7 +283,7 @@ const Pricing = () => {
             <Button 
               size="lg" 
               variant="cta"
-              onClick={() => window.open('https://salescentri.com/solutions/use-case-navigator/recommendations', '_blank')}
+              onClick={() => window.location.assign('https://salescentri.com/solutions/use-case-navigator/recommendations')}
             >
               Get Custom ROI Calculation
               <ArrowRight className="ml-2 h-5 w-5" />
@@ -333,7 +333,7 @@ const Pricing = () => {
               size="xl" 
               variant="secondary"
               className="bg-white text-primary hover:bg-white/90"
-              onClick={() => window.open('https://salescentri.com/get-started/free-trial', '_blank')}
+              onClick={() => window.location.assign('https://salescentri.com/get-started/free-trial')}
             >
               Start Free Trial
               <ArrowRight className="ml-2 h-5 w-5" />
@@ -342,7 +342,7 @@ const Pricing = () => {
               size="xl" 
               variant="outline-primary" 
               className="border-white/30 text-white hover:bg-white/10"
-              onClick={() => window.open('https://salescentri.com/get-started/book-demo', '_blank')}
+              onClick={() => window.location.assign('https://salescentri.com/get-started/book-demo')}
             >
               Talk to Sales
             </Button>

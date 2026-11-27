@@ -106,7 +106,7 @@ const Features = () => {
             size="lg" 
             variant="secondary"
             className="bg-white text-primary hover:bg-white/90"
-            onClick={() => window.open('https://salescentri.com/solutions/use-case-navigator/demo', '_blank')}
+            onClick={() => window.location.assign('https://salescentri.com/solutions/use-case-navigator/demo')}
           >
             Try Interactive Demo
             <ArrowRight className="ml-2 h-5 w-5" />
@@ -216,7 +216,7 @@ const Features = () => {
           <div className="text-center mt-12">
             <Button 
               variant="outline-primary"
-              onClick={() => window.open('https://salescentri.com/solutions/psa-suite/integrations', '_blank')}
+              onClick={() => window.location.assign('https://salescentri.com/solutions/psa-suite/integrations')}
             >
               View All Integrations
               <ArrowRight className="ml-2 h-4 w-4" />
@@ -239,7 +239,7 @@ const Features = () => {
               size="xl" 
               variant="secondary"
               className="bg-white text-primary hover:bg-white/90"
-              onClick={() => window.open('https://salescentri.com/get-started/book-demo', '_blank')}
+              onClick={() => window.location.assign('https://salescentri.com/get-started/book-demo')}
             >
               Book Your Demo
               <ArrowRight className="ml-2 h-5 w-5" />
@@ -248,7 +248,7 @@ const Features = () => {
               size="xl" 
               variant="outline-primary" 
               className="border-white/30 text-white hover:bg-white/10"
-              onClick={() => window.open('https://salescentri.com/get-started/free-trial', '_blank')}
+              onClick={() => window.location.assign('https://salescentri.com/get-started/free-trial')}
             >
               Start Free Trial
             </Button>

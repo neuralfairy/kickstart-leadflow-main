@@ -144,7 +144,7 @@ const Contact = () => {
                   <Button 
                     variant={method.color === "primary" ? "cta" : "outline-primary"}
                     className="w-full"
-                    onClick={() => window.open(method.link, '_blank')}
+                    onClick={() => window.location.assign(method.link)}
                   >
                     {method.action}
                     <ArrowRight className="ml-2 h-4 w-4" />
@@ -228,7 +228,7 @@ const Contact = () => {
                   <Button 
                     variant="outline-primary"
                     className="w-full"
-                    onClick={() => window.open(option.link, '_blank')}
+                    onClick={() => window.location.assign(option.link)}
                   >
                     Get Help
                     <ArrowRight className="ml-2 h-4 w-4" />
@@ -263,7 +263,7 @@ const Contact = () => {
               <Button 
                 size="lg" 
                 variant="outline-primary"
-                onClick={() => window.open('https://salescentri.com/resources/case-studies', '_blank')}
+                onClick={() => window.location.assign('https://salescentri.com/resources/case-studies')}
               >
                 Resource Library
               </Button>
@@ -311,7 +311,7 @@ const Contact = () => {
             size="xl" 
             variant="secondary"
             className="bg-white text-primary hover:bg-white/90"
-            onClick={() => window.open('https://salescentri.com/get-started/free-trial', '_blank')}
+            onClick={() => window.location.assign('https://salescentri.com/get-started/free-trial')}
           >
             Start Free Trial
             <ArrowRight className="ml-2 h-5 w-5" />

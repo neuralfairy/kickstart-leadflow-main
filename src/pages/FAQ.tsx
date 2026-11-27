@@ -327,7 +327,7 @@ const FAQ = () => {
                   <Button 
                     variant="cta" 
                     className="w-full"
-                    onClick={() => window.open('https://salescentri.com/contact/support-request/live-chat', '_blank')}
+                    onClick={() => window.location.assign('https://salescentri.com/contact/support-request/live-chat')}
                   >
                     Start Chat
                     <MessageCircle className="ml-2 h-4 w-4" />
@@ -345,7 +345,7 @@ const FAQ = () => {
                   <Button 
                     variant="outline-primary" 
                     className="w-full"
-                    onClick={() => window.open('https://salescentri.com/contact/sales-inquiry', '_blank')}
+                    onClick={() => window.location.assign('https://salescentri.com/contact/sales-inquiry')}
                   >
                     Call Now
                     <Phone className="ml-2 h-4 w-4" />
@@ -379,7 +379,7 @@ const FAQ = () => {
             size="xl" 
             variant="secondary"
             className="bg-white text-primary hover:bg-white/90"
-            onClick={() => window.open('https://salescentri.com/get-started/free-trial', '_blank')}
+            onClick={() => window.location.assign('https://salescentri.com/get-started/free-trial')}
           >
             Start Free Trial
             <ArrowRight className="ml-2 h-5 w-5" />
