@@ -153,7 +153,7 @@ const About = () => {
                 variant="cta" 
                 size="lg" 
                 className="mt-8"
-                onClick={() => window.open('https://salescentri.com/company/careers', '_blank')}
+                onClick={() => window.location.assign('https://salescentri.com/company/careers')}
               >
                 Join Our Team
                 <ArrowRight className="ml-2 h-5 w-5" />
@@ -232,7 +232,7 @@ const About = () => {
                   <Button 
                     variant="ghost" 
                     size="sm"
-                    onClick={() => window.open(member.linkedin, '_blank')}
+                    onClick={() => window.location.assign(member.linkedin)}
                   >
                     <Linkedin className="h-4 w-4" />
                   </Button>
@@ -269,7 +269,7 @@ const About = () => {
           <div className="text-center mt-12">
             <Button 
               variant="outline-primary"
-              onClick={() => window.open('https://salescentri.com/trust/compliance-certifications', '_blank')}
+              onClick={() => window.location.assign('https://salescentri.com/trust/compliance-certifications')}
             >
               View All Certifications
               <ArrowRight className="ml-2 h-4 w-4" />
@@ -292,7 +292,7 @@ const About = () => {
               size="xl" 
               variant="secondary"
               className="bg-white text-primary hover:bg-white/90"
-              onClick={() => window.open('https://salescentri.com/get-started/free-trial', '_blank')}
+              onClick={() => window.location.assign('https://salescentri.com/get-started/free-trial')}
             >
               Start Free Trial
               <ArrowRight className="ml-2 h-5 w-5" />
@@ -301,7 +301,7 @@ const About = () => {
               size="xl" 
               variant="outline-primary" 
               className="border-white/30 text-white hover:bg-white/10"
-              onClick={() => window.open('https://salescentri.com/contact', '_blank')}
+              onClick={() => window.location.assign('https://salescentri.com/contact')}
             >
               Contact Us
             </Button>

@@ -51,14 +51,14 @@ const Header = () => {
             <Button 
               variant="outline-primary" 
               size="sm"
-              onClick={() => window.open('https://salescentri.com/get-started/book-demo', '_blank')}
+              onClick={() => window.location.assign('https://salescentri.com/get-started/book-demo')}
             >
               Book Demo
             </Button>
             <Button 
               variant="cta" 
               size="sm"
-              onClick={() => window.open('https://salescentri.com/get-started/free-trial', '_blank')}
+              onClick={() => window.location.assign('https://salescentri.com/get-started/free-trial')}
             >
               Start Free Trial
             </Button>
@@ -95,7 +95,7 @@ const Header = () => {
                   size="sm" 
                   className="w-full"
                   onClick={() => {
-                    window.open('https://salescentri.com/get-started/book-demo', '_blank');
+                    window.location.assign('https://salescentri.com/get-started/book-demo');
                     setIsMenuOpen(false);
                   }}
                 >
@@ -106,7 +106,7 @@ const Header = () => {
                   size="sm" 
                   className="w-full"
                   onClick={() => {
-                    window.open('https://salescentri.com/get-started/free-trial', '_blank');
+                    window.location.assign('https://salescentri.com/get-started/free-trial');
                     setIsMenuOpen(false);
                   }}
                 >

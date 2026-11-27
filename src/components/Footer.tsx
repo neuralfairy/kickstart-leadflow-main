@@ -84,8 +84,6 @@ const Footer = () => {
                 <li key={solution.name}>
                   <a 
                     href={solution.url} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
                     className="text-sm text-muted-foreground hover:text-primary transition-colors"
                   >
                     {solution.name}
@@ -103,8 +101,6 @@ const Footer = () => {
                 <li key={resource.name}>
                   <a 
                     href={resource.url} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
                     className="text-sm text-muted-foreground hover:text-primary transition-colors"
                   >
                     {resource.name}
@@ -116,7 +112,7 @@ const Footer = () => {
               variant="cta" 
               size="sm" 
               className="w-full mb-4"
-              onClick={() => window.open('https://salescentri.com/get-started/free-trial', '_blank')}
+              onClick={() => window.location.assign('https://salescentri.com/get-started/free-trial')}
             >
               Start Free Trial
             </Button>
@@ -136,8 +132,6 @@ const Footer = () => {
           <div className="text-sm text-muted-foreground">
             <a 
               href="https://salescentri.com?utm_source=KickItMarketing.com&utm_medium=footer&utm_campaign=partner_network" 
-              target="_blank" 
-              rel="noopener noreferrer"
               className="hover:text-primary transition-colors"
             >
               Powered by Sales Intelligence Platform
